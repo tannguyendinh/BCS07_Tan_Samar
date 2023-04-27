@@ -52,7 +52,7 @@ a {
 /* HEADER  */
 
 header {
-    /* position: absolute; */
+    position: absolute;
     width: 100%;
     top: 0;
     left: 0;
@@ -114,30 +114,30 @@ header .header_logo {
 
 /* CAROUSEL */
 
-.carousel {
+.saCarousel {
     padding-top: 200px;
     background-image: url("./../img/pic2.png");
     background-size: 100%;
     background-position: top;
 }
 
-.carousel .carousel_content {
+.saCarousel .saCarousel_content {
     display: flex;
     align-items: center;
 }
 
-.carousel_content .content_left {
+.saCarousel_content .content_left {
     width: 60%;
 }
 
 
-.carousel .carousel_content .content_left .title p {
+.saCarousel .saCarousel_content .content_left .title p {
     color: #f55f8d;
     font-size: 25px;
     font-weight: 600;
 }
 
-.carousel .carousel_content .content_left .title h2 {
+.saCarousel .saCarousel_content .content_left .title h2 {
     color: #262626;
     font-size: 70px;
     font-weight: 800;
@@ -147,12 +147,12 @@ header .header_logo {
 }
 
 
-.carousel .carousel_content .content_left .left_content p {
+.saCarousel .saCarousel_content .content_left .left_content p {
     font-size: 15px;
     margin-bottom: 15px;
 }
 
-.carousel .carousel_content .content_left .left_content ul li {
+.saCarousel .saCarousel_content .content_left .left_content ul li {
     list-style: none;
     font-size: 20px;
     padding: 10px 5px 10px 0;
@@ -176,16 +176,16 @@ header .header_logo {
     margin-right: 10px;
 }
 
-.carousel_content .content_right {
+.saCarousel_content .content_right {
     width: 40%;
 }
 
-.carousel_content .content_right .right_img {
+.saCarousel_content .content_right .right_img {
     margin-left: 50px;
     width: 570px;
 }
 
-.carousel_content .content_right .right_img img {
+.saCarousel_content .content_right .right_img img {
     max-width: 100%;
     display: block;
 }
